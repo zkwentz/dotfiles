@@ -69,7 +69,7 @@ set foldenable
 set foldlevelstart=10
 
 " 10 nested fold max
-set foldnextmax=10
+set foldnestmax=10
 
 " Space open/closes folds
 nnoremap <space> za
@@ -154,10 +154,7 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 "==============================================
 
 " Use Pathogen
-call pathogen#infect()
-
-" Extract all vim plugins from ~/.vim/bundle
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 
 " }}}
 "==============================================
