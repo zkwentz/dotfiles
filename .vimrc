@@ -242,3 +242,4 @@ set modelines=1
 "==============================================
 
 " vim:foldmethod=marker:foldlevel=0
+set runtimepath^=~/.vim/bundle/ag
