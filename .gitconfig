@@ -1,3 +1,6 @@
 [user]
 	email = zwentz@netflix.com
 	name = Zach Wentz
+
+[alias]
+  killforever = "!cd ${GIT_PREFIX:-.} && f() { git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch \"$1\"' --prune-empty --tag-name-filter cat -- --all; }; f"
