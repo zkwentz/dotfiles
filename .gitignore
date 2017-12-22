@@ -12,6 +12,7 @@ Public/
 .metatron
 .rvm
 .viminfo
+.vim/.netrwhist
 .electrum/
 .gem/
 .mkshrc
