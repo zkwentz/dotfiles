@@ -90,6 +90,9 @@ set incsearch
 " Highlight matching searches
 set hlsearch
 
+" Runtime path for silver searcher
+set runtimepath^=~/.vim/bundle/ag
+
 " }}}
 "==============================================
 
@@ -242,4 +245,3 @@ set modelines=1
 "==============================================
 
 " vim:foldmethod=marker:foldlevel=0
-set runtimepath^=~/.vim/bundle/ag

@@ -22,3 +22,4 @@ Public/
 .Trash/
 .bash_sessions/
 .bundle/
+.cache
