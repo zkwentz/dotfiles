@@ -9,14 +9,12 @@ Movies/
 Music/
 Public/
 node_modules/
-.bash_history
+.nvm
+.rvm
+.npm
 .config
 .metatron
-.rvm
-.nvm
-.npm
-.viminfo
-.vim/.netrwhist
+.bash_history
 .electrum/
 .gem/
 .mkshrc
@@ -31,4 +29,8 @@ node_modules/
 .cache
 .zsh-update
 .zsh_history
+
+.viminfo
+.vim/.netrwhist
 .vim/colors/ThemerVim.vim
+.vim/bundle/*
