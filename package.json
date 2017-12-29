@@ -1,0 +1,30 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "themer": "^2.2.3",
+    "themer-chrome": "^1.0.2",
+    "themer-colors-github-universe": "^1.0.0",
+    "themer-colors-night-sky": "^1.0.4",
+    "themer-colors-solarized": "^1.0.0",
+    "themer-terminal": "^1.0.4",
+    "themer-vim": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "theme": "themer -c themer-colors-solarized -t themer-vim -o .vim/colors && themer -c themer-colors-solarized -t themer-terminal -o .bash_colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkwentz/dotfiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkwentz/dotfiles/issues"
+  },
+  "homepage": "https://github.com/zkwentz/dotfiles#readme"
+}

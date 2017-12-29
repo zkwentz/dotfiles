@@ -8,9 +8,13 @@ Library/
 Movies/
 Music/
 Public/
+node_modules/
 .bash_history
+.config
 .metatron
 .rvm
+.nvm
+.npm
 .viminfo
 .vim/.netrwhist
 .electrum/
@@ -25,3 +29,6 @@ Public/
 .bash_sessions/
 .bundle/
 .cache
+.zsh-update
+.zsh_history
+.vim/colors/ThemerVim.vim

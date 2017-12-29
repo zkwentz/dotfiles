@@ -6,7 +6,7 @@
 syntax enable 
 
 " Latest awesome colorscheme
-colorscheme badwolf  
+colorscheme ThemerVim
 
 " }}}
 "==============================================
@@ -224,6 +224,7 @@ augroup configgroup
   autocmd FileType ruby setlocal shiftwidth=2
   autocmd FileType ruby setlocal softtabstop=2
   autocmd FileType ruby setlocal commentstring=#\ %s
+  autocmd FileType make setlocal expandtab!
   autocmd BufEnter *.sh setlocal tabstop=2
   autocmd BufEnter *.sh setlocal shiftwidth=2
   autocmd BufEnter *.sh setlocal softtabstop=2
